@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <item>
+        <title>title1</title>
+        <type>SystemNtf1</type>
+        <stDate>2022-02-01</stDate>
+        <endDate>2022-12-31</endDate>
+        <content>hi this is content</content>
+    </item>
+    <item>
+        <title>title2</title>
+        <type>SystemNtf2</type>
+        <stDate>2022-02-01</stDate>
+        <endDate>2022-12-31</endDate>
+        <content>hi this is content</content>
+    </item>
+    <item>
+        <title>title3</title>
+        <type>SystemNtf3</type>
+        <stDate>2022-02-01</stDate>
+        <endDate>2022-12-31</endDate>
+        <content>hi this is content</content>
+    </item>
+</root>
