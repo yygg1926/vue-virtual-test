@@ -61,11 +61,14 @@ export default {
             // }
 
             const importCase = jsonParser.parseString(response.data);
-            var element = response.data.getElementsByTagName("root");
-            element[0].appendChild("<item></item>")
+            // var element = response.data.getElementsByTagName("root");
+            // element[0].appendChild("<item></item>")
             var resp = JSON.stringify(importCase, undefined, 2);
             this.target2 = JSON.parse(resp).root[0].item;
 
+            this.target2.push({"title":[{"_text":"addTitleTest"}]});
+            this.target2.splice(2,2);//(몇번째부터?, 몇개?);
+            //item.title[0]._text
             // var parser = new DOMParser();
             // var json = parser.parseFromString(response.data, "text/xml");
             // // console.log(json.childNodes.length);
